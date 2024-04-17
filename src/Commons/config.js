@@ -1,5 +1,5 @@
 /* istanbul ignore file */
-const dotenv = require('dotenv');
+const dotenv = require('dotenv').config({ path: `./.${process.env.NODE_ENV || 'development'}.env` });;
 const path = require('path');
 
 if (process.env.NODE_ENV === 'test') {
