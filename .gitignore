@@ -4,5 +4,5 @@ node_modules
 .test.env
 package-lock.json
 coverage
-auth-api-app-server.pem
+forum-api-webserver.pem
 config/database/test.json
